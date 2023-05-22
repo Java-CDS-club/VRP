@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>VRP Solver</title>
+</head>
+<body>
+    <h1>VRP Solver</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="distance_matrix">Distance Matrix:</label><br>
+        <textarea id="distance_matrix" name="distance_matrix" rows="4" cols="50"></textarea><br>
+        <label for="num_vehicles">Number of Vehicles:</label><br>
+        <input type="text" id="num_vehicles" name="num_vehicles"><br>
+        <label for="depot">Depot:</label><br>
+        <input type="text" id="depot" name="depot"><br>
+        <label for="max_distance">Maximum Travel Distance:</label><br>
+        <input type="text" id="max_distance" name="max_distance"><br>  <!-- Add the input field for maximum distance -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
